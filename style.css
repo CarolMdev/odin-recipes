@@ -1,0 +1,83 @@
+body {
+    font-family: Anton, sans-serif;
+    background-image: radial-gradient(circle, #1f5dbb, #0085c4, #00a3ac, #68b994, #bac996);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Ultra', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+p,
+h3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#recipe-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#recipe-list li {
+    display: flex;
+    flex-flow: row;
+    font-size: 40px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#steps {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: auto;
+    border-style: solid;
+    border-color: #021b41;
+    width: 500px;
+
+}
+
+#ingredients {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+h1:hover {
+    text-shadow: 4px 4px 4px rgba(104, 255, 255, 0.39);
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.homepage {
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+a:hover,
+.homepage:hover {
+    text-shadow: 4px 4px 4px rgba(238, 227, 227, 0.5);
+    text-decoration: none;
+}
