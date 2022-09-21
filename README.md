@@ -1,2 +1,2 @@
 # odin-recipes
-Live Preview: carolmdev.github.io/odin-recipes
+<a href="https://carolmdev.github.io/odin-recipes>Live Preview</a>
